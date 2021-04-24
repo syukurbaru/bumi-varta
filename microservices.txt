@@ -1,0 +1,11 @@
+# Design Arsitektur Dan Flow Gambar Microservices Docker
+
+1. Detail gambar di folder /img
+2. Berikut keterangan gambar:
+   Backend Services terdiri dari:
+    a. User microservice
+    b. Katalog microservice
+  Backend Services diimplementasikan sebagai microservices yang menggunakan NodeJS dan API
+  dan dideploy sebagai unik container dalam satu host Docker. Kemudian aplikasi berkomunikasi
+  dengan backend melalui REST API yang memerlukan akses token. Adapun dibagian clien menggunakan
+  bahasa pemograman javascript dengan framework ReactJS
